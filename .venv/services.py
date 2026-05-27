@@ -1,5 +1,5 @@
 from abc import ABC, abstractmethod
-from transport import Transport, Bike
+from transport import Transport, Bike, Scooter, Taxi
 
 class TransportServices(ABC):
     def __init__(self):
@@ -31,3 +31,17 @@ class BikeService(TransportServices):
 
     def transport_name(self) -> str:
         return "Bike"
+
+class ScooterService(TransportServices):
+    def create_transport(self) -> Transport:
+        return Scooter()
+
+    def transport_name(self) -> str:
+        return "Scooter"
+
+class TaxiService(TransportServices):
+    def create_transport(self) -> Transport:
+        return Taxi()
+
+    def transport_name(self) -> str:
+        return "Taxi"
