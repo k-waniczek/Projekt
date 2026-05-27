@@ -6,13 +6,12 @@ def main():
     bike_service = BikeService()
 
     customer1.order_transport(bike_service)
-
-
-if __name__ == "__main__":
-    main()
-
     scooter_service = ScooterService()
     taxi_service = TaxiService()
 
     customer1.order_transport(scooter_service)
     customer1.order_transport(taxi_service)
+
+if __name__ == "__main__":
+    main()
+
