@@ -24,6 +24,7 @@ class TransportServices(ABC):
         else:
             print(f"\nKomunikat: Przepraszamy, transport typu '{self.transport_name()}' jest obecnie niedostępny.")
     # ty zobacz co ja tu nazmienialem
+    #ty fajne
 
 class BikeService(TransportServices):
     def create_transport(self) -> Transport:
