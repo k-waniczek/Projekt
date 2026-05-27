@@ -2,7 +2,7 @@ import unittest
 from transport import Bike
 from services import BikeService
 
-
+#Jakis tam fajny komentarz
 class TestTransportSystem(unittest.TestCase):
     def test_create_transport(self):
         """Sprawdza tworzenie transportu i działanie metod."""
