@@ -20,3 +20,4 @@ Wzorzec Factory Method (Metoda Fabrykująca) został użyty, aby oddzielić logi
  
 ## Przykłady działania programu
 Po uruchomieniu `main.py` program najpierw sprawdza flagę `available`. Jeśli wynosi ona `True`, wyświetla dane pojazdu i zmienia status na `False`. Przy ponownej próbie zamówienia tego samego pojazdu, system zwraca komunikat o błędzie informujący o braku dostępności.
+
