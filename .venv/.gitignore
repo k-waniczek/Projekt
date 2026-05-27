@@ -3,4 +3,5 @@ Include/
 Lib/
 Scripts/
 *.tag
+__pycache__/
 
