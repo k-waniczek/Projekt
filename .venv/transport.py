@@ -23,6 +23,7 @@ class Bike(Transport):
     def travel_time(self) -> str:
         return "15 minutes"
 
+# Fajna klasa skuter
 class Scooter(Transport):
     def vehicle_type(self) -> str:
         return "Scooter"
